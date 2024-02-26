@@ -13,14 +13,21 @@
 //   .then(console.log)
 //   .catch(console.error);
 //
-
+import letras from '../data/letras/letras.js';
 const App = () => {
   const el = document.createElement('div');
 
   el.className = 'App';
   el.textContent = 'Hola mundo!';
-
+  el.innerHTML = exibeCards(letras);
   return el;
 };
 
+const exibeCards = (elementos) => {
+  let cards = ""
+  elementos.items.forEach((letra) => {
+   cards += `<div style="background-color: ${letra.bgColor}">${letra.id}</div>`
+})
+  return cards;
+}
 export default App;
