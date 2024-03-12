@@ -13,21 +13,63 @@
 //   .then(console.log)
 //   .catch(console.error);
 //
-import letras from '../data/letras/letras.js';
-const App = () => {
-  const el = document.createElement('div');
+ import letras from '../data/letras/letras.js';
+// const App = () => {
+//   const el = document.createElement('div');
 
-  el.className = 'App';
-  el.textContent = 'Hola mundo!';
-  el.innerHTML = exibeCards(letras);
-  return el;
+//   el.className = 'App';
+//   el.textContent = 'Hola mundo!';
+//   el.innerHTML = exibeCards(letras);
+//   return el;
+// };
+
+// const exibeCards = (elementos) => {
+//   let cards = ""
+//   elementos.items.forEach((letra) => {
+//    cards += `<div style="background-color: ${letra.bgColor}">
+//    <img src='${letra.image}'>
+//    </div>`
+// })
+//   return cards;
+// }
+
+const root = document.querySelector('.root');
+
+const createElement = (tag, className) => {
+  const element = document.createElement(tag);
+  element.className = className;
+  return element;
+
+}
+//FUNÇÃO PARA EXIBIR OS CARDS
+const exibeCards = (vogais) => {
+
+  const card = createElement('div', 'card');
+  const front = createElement('div', 'face front');
+  const back = createElement('div', 'face back');
+  front.style.backgroundImage = `url('${vogais}')`; //PARA CONSEGUIR PASSAR VARIÁVEIS DENTRO DE STRINGS
+
+  card.appendChild(front);
+  card.appendChild(back);
+
+  return card;
+}
+//FUNÇÃO PARA CARREGAR O JOGO .. ESSA FUNÇÃO VAI PECORRER O ARRAY NA PASTA letras.js 
+const loadGame = () => {
+  
+  const dupliCard = [...letras.items , ...letras.items]
+
+  dupliCard.forEach((vogais) => {
+
+    const card  = exibeCards(vogais.image);
+    root.appendChild(card);
+    
+  });
+
+
+    
 };
 
-const exibeCards = (elementos) => {
-  let cards = ""
-  elementos.items.forEach((letra) => {
-   cards += `<div style="background-color: ${letra.bgColor}">${letra.id}</div>`
-})
-  return cards;
-}
-export default App;
+loadGame();
+
+export default App; 
