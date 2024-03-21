@@ -37,10 +37,6 @@ O **Memory Match Kids** é um jogo da memória voltado para crianças em idade d
 
 <img width="517" alt="Tela de Jogo" src="https://github.com/ThayBorges/SAP012-memory-match/assets/115192383/45e42059-ccb3-4da2-8587-4bccc4b45619">
 
-## Problemas Detectados por Meio de Testes de Usabilidade
-
-  Durante os testes de usabilidade, foi identificado um bug. Ao clicar em um card, se clicar no mesmo card novamente, ocorre o match com ele mesmo, sendo assim, ele permanece virado para frente.
-
 ## Lista Melhorias A Serem Feitas Futuramente
 
   - Adicionar a opção de ativar/desativar o som das vogais através de um botão.
