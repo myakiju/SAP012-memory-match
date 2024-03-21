@@ -99,7 +99,7 @@ footer {
 @media (min-width: 700px) {
 
 body {
-  background: url("./assets/bg1.png");
+  background: url("./assets/BGgamedesktop.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
