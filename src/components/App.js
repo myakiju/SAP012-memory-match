@@ -51,7 +51,7 @@ const App = () => {
 
   const revealCard = ({ target }) => {
     //função para clicar na carta ela virar
-    if (target.parentNode.className.includes("revealCard")) {
+    if (target.parentNode.className.includes("reveal-card")) {
       //se eu clicar na carta que contem a tag revealCard não vai acontecer nada.
       return;
     }
