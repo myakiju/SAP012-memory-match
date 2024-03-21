@@ -20,7 +20,7 @@ O **Memory Match Kids** é um jogo da memória voltado para crianças em idade d
 ## Histórias de Usuário
 
 1. **Como pai/mãe:**
-    -Quero um recurso educativo divertido e eficaz para ajudar meu filho a aprender sobre as vogais. Que tenha um design colorido e um feedback visual que cative meu filho, proporcionando uma forma envolvente de aprendizado.
+    - Quero um recurso educativo divertido e eficaz para ajudar meu filho a aprender sobre as vogais. Que tenha um design colorido e um feedback visual que cative meu filho, proporcionando uma forma envolvente de aprendizado.
 
 2. **Como professor de Educação Infantil:**
    - Gostaria de um jogo da memória com as vogais para utilizar como ferramenta educativa em sala de aula, a fim de auxiliar meus alunos no aprendizado das vogais de forma lúdica e interativa.
@@ -43,10 +43,10 @@ O **Memory Match Kids** é um jogo da memória voltado para crianças em idade d
 
 ## Lista Melhorias A Serem Feitas Futuramente
 
-  -Adicionar a opção de ativar/desativar o som das vogais através de um botão.
-  -Implementar um temporizador que marque o tempo decorrido até a conclusão do jogo.
-  -Incluir níveis de dificuldade selecionáveis pelo usuário (fácil, médio e difícil), permitindo a inclusão de todas as letras do alfabeto e não apenas as vogais, aumentando a complexidade do jogo.
-  -Após completar o jogo, exibir uma tela de recordes com os melhores tempos alcançados.
+  - Adicionar a opção de ativar/desativar o som das vogais através de um botão.
+  - Implementar um temporizador que marque o tempo decorrido até a conclusão do jogo.
+  - Incluir níveis de dificuldade selecionáveis pelo usuário (fácil, médio e difícil), permitindo a inclusão de todas as letras do alfabeto e não apenas as vogais, aumentando a complexidade do jogo.
+  - Após completar o jogo, exibir uma tela de recordes com os melhores tempos alcançados.
 
 ## Imagens utilizadas
 
